@@ -1,0 +1,148 @@
+body{
+  background-image: url(img/bg.jpg);
+} 
+
+header{
+  background-image: url(img/header.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  padding-bottom: 10px;
+  min-height: 860px;
+  font-family: 'Raleway', sans-serif;
+}
+
+img{
+  max-width: 100%;
+}
+a:hover{
+  text-decoration: none;
+
+}
+
+header .content{
+  background-image: url(img/board.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+  min-height: 709px;
+}
+
+header .colors img{
+  border: 5px solid #FFF;
+   box-shadow: 2px 2px 2px #777;
+   -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+
+.logo{
+  text-align: center;
+  padding: 30px 0;
+}
+
+
+#main{
+  background-color: #FFF;
+  padding:20px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  box-shadow: 2px 2px 2px #777;
+  margin-top: 70px;
+}
+
+
+.buynow{
+  position: relative;
+  margin-top: 80px;
+  text-align: center;
+}
+
+.buynow a{
+  background-color: #006336;
+  color: #FFF;
+   -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  border: 3px solid #FFF;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px 50px;
+  box-shadow: 2px 2px 2px #777;
+  position: relative;
+  z-index: 2;
+   /*-webkit-transition:  font-size 1s;
+       -moz-transition:  font-size 1s;
+         -o-transition:  font-size 1s;
+            transition:  font-size 1s;*/
+
+}
+
+.buynow a:hover{
+  font-size: 25px;
+}
+
+
+.line{
+  border-top: 3px solid #006336;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  margin-left: -15px;
+  top: 10px;
+}
+.intro{
+  font-size: 18px;
+  color: #00321b;
+    text-align: justify;  
+    -moz-text-align-last: right; /* Code for Firefox */
+    text-align-last: right;
+    font-weight: lighter;
+
+}
+
+.intro p{
+   line-height: 35px;
+    text-shadow: 1px 1px 2px #888;
+    margin-top: 80px; 
+}
+
+
+nav{
+  background-color: #008348;
+  text-align: center;
+  margin: 20px 0;
+   box-shadow: 2px 2px 4px #444;
+}
+nav ul{
+  margin-bottom: 0
+}
+
+nav li{
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 40px;
+}
+
+nav li a{
+  color: #FFF;
+  font-weight: lighter;
+  font-size: 25px;
+  text-transform: uppercase;
+} 
+
+
+
+section{
+  height: 2000px;
+}
+
+
+
+nav li a:hover, 
+nav li.active a{
+  color: #00ee83;
+}
+
+
+
+
